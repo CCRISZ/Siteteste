@@ -17,7 +17,7 @@ function buscarClima() {
       resultado.innerHTML = `
         <p><strong>${dados.name}</strong></p>
         <p>${dados.weather[0].description}</p>
-        <p>🌡️ ${dados.main.temp} °C</p>
+        <p> ${dados.main.temp} °C</p>
       `;
     })
     .catch(() => {
